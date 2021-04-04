@@ -1,0 +1,375 @@
+/* --------------- HTML TAGS ----------------*/
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+h1{
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+h2 {
+  color: #ff9999;
+  text-shadow: 1px 1px 1px darkcyan;
+  font-size: 35px;
+}
+
+h3 {
+  color: #ff9999;
+  text-shadow: 1px 1px 1px darkcyan;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+hr {
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px darkcyan;
+  width: 80%;
+  margin: 50px auto;
+}
+
+h1.myName {
+  color: #009999;
+  font-size: 5.6rem;
+  margin-bottom: 0;
+  font-weight: 900;
+  text-shadow: 1px 1px 1px #ff9999;
+}
+
+table {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  border-bottom: 1px solid darkcyan;
+}
+
+td, th {
+  padding: 5px 10px 0px 10px;
+  font-size: 20px;
+}
+
+th {
+  background-color: darkcyan;
+  color: white;
+}
+
+hr.top-margin {
+  margin-top: 150px;
+}
+
+p.myText {
+  color: #ff9999;
+  font-size: 2.8rem ;
+  margin-top: -25px;
+  margin-left: -50px;
+  font-weight: 400;
+}
+
+p.intro-text {
+  text-align: center;
+  line-height: 1.3;
+}
+
+p.hobby-text-left {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 60%;
+}
+
+p.hobby-text-right {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 60%;
+  margin-left: 40%;
+}
+
+span.highlight {
+  color: darkcyan;
+  font-weight: bold;
+  text-shadow: 0 1px 1px pink;
+}
+
+span.myText-pro-color {
+  color: darkcyan;
+}
+
+span.myText-A-color {
+  color: #00b3b3;
+}
+
+span.myText-B-color {
+    color: #009999;
+}
+
+/* --------------- HTML DIVS ----------------*/
+
+.background-gradient-top {
+  background-image: radial-gradient(ellipse at bottom, transparent, lightblue),
+            radial-gradient(ellipse at top, lightblue, transparent);
+}
+
+.background-gradient-bottom {
+  background-image: radial-gradient(ellipse at top, transparent, lightblue),
+            radial-gradient(ellipse at bottom, lightblue, transparent);
+}
+
+.content-display {
+  width: 50%;
+  margin: auto;
+}
+
+.skill-row-left {
+  padding: 10px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.skill-row-right {
+  padding: 10px;
+  margin: 20px auto;
+  text-align: right;
+}
+
+.skill-text {
+  text-align: left;
+  margin-top: -5px;
+}
+
+.working-with {
+  margin: 50px auto;
+}
+
+.about-me {
+
+}
+
+/* --------------- HTML IDS ----------------*/
+
+#top-container {
+  color: lightpink;
+  margin-top: 0px;
+  margin: 0px;
+  width: auto;
+  height: 100%;
+}
+
+#middle-container {
+  padding: 50px;
+}
+
+#bottom-container {
+  background-color: #00b3b3;
+  padding: 10px;
+  box-shadow: -4px 0px 50px pink;
+  border-top: 1.5px solid lightpink;
+  line-height: 2;
+}
+
+#main-text {
+  margin: auto;
+  position: absolute;
+  top: 30%;
+  left: 34%;
+  width: auto;
+  font-family: 'Cinzel', serif;
+  text-shadow: 1px 1px 1px black;
+}
+
+#main-text:hover {transform: scale(1.02,1.02); filter: blur(2px); -webkit-filter: drop-shadow(5px 5px 10px lightpink); filter: drop-shadow(5px 5px 10px lightpink); font-size: 150px;}
+#main-text:hover + img#cloud-large {width: 53%; height: 53%; filter: blur(2px); -webkit-filter: drop-shadow(5px 5px 10px darkcyan); filter: drop-shadow(5px 5px 10px darkcyan);}
+
+
+/* --------------- IMAGE DIVS ----------------*/
+
+img.me-img {
+  width: 20%;
+  background-color: darkcyan;
+  border-radius: 100px;
+  padding: 5px;
+  box-shadow: 2px 2px 2px #ff9999;
+}
+
+img.skill-img {
+  width: 15%;
+  background-color: darkcyan;
+  border-radius: 100px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 5px;
+  box-shadow: 2px 2px 2px #ff9999;
+}
+
+img.hobby-img-left {
+  width: 10%;
+  background-color: darkcyan;
+  border-radius: 100px;
+  float: left;
+  margin-right: 20px;
+  padding: 5px;
+  box-shadow: 2px 2px 2px #ff9999;
+}
+
+img.hobby-img-right {
+  width: 10%;
+  background-color: darkcyan;
+  border-radius: 100px;
+  float: right;
+  margin-left: 20px;
+  padding: 5px;
+  box-shadow: -2px 2px 2px #ff9999;
+}
+
+img.cloud-minimum-l3 {
+  width: 9%;
+  height: 9%;
+  position: absolute;
+  top: 0.5%;
+  left: -1%;
+}
+
+img.cloud-minimum-l2 {
+  width: 11%;
+  height: 11%;
+  position: absolute;
+  top: 8.5%;
+  left: 1%;
+  transform: rotate(350deg);
+}
+
+img.cloud-minimum-l1 {
+  width: 15%;
+  height: 15%;
+  position: absolute;
+  top: 23%;
+  right: 0.6%;
+  transform: rotate(-10deg);
+}
+
+img.cloud-minimum-r {
+  width: 25%;
+  height: 25%;
+  position: absolute;
+  top: 4%;
+  left: 11%;
+  transform: rotate(5deg);
+}
+
+img.cloud-minimum-l {
+  width: 15%;
+  height: 15%;
+  position: absolute;
+  top: 20%;
+  left: 0%;
+  transform: rotate(10deg);
+}
+
+img.cloud-small-r {
+  width: 20%;
+  height: 20%;
+  position: absolute;
+  top: 22%;
+  left: 14%;
+  transform: rotate(8deg);
+}
+
+img.cloud-small-l {
+  width: 22%;
+  height: 22%;
+  position: absolute;
+  right: 0%;
+
+}
+
+img.cloud-normal-r {
+  width: 25%;
+  height: 25%;
+  position: absolute;
+  right: 11%;
+  top: 13%;
+}
+
+img.cloud-normal-l{
+  width: 20%;
+  height: 20%;
+  position: fixed;
+  top: 78%;
+  right: 1%;
+}
+
+img.cloud-big {
+  width: 30%;
+  height: 30%;
+  position: absolute;
+  left: 35%;
+  transform: rotate(180deg);
+}
+
+img#cloud-large {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 22%;
+  left: 25%;
+}
+
+img#cloud-large:hover {width: 53%; height: 53%; filter: blur(2px); -webkit-filter: drop-shadow(5px 5px 10px darkcyan); filter: drop-shadow(5px 5px 10px darkcyan);}
+img#cloud-large:hover + #main-text {transform: scale(1.02,1.02); filter: blur(3px); -webkit-filter: drop-shadow(5px 5px 10px lightpink); filter: drop-shadow(5px 5px 10px lightpink); font-size: 150px;}
+img.cloud-big:hover {width: 32%; height: 32%; filter: blur(2px); -webkit-filter: drop-shadow(5px 5px 10px rgb(0, 255, 191)); filter: drop-shadow(5px 5px 10px rgb(0, 255, 191));}
+img.cloud-normal-l:hover {width: 22%; height: 22%; filter: blur(2px); -webkit-filter: drop-shadow(5px 5px 10px rgb(0, 152, 0)); filter: drop-shadow(5px 5px 10px rgb(0, 152, 0));}
+img.cloud-normal-r:hover {width: 27%; height: 27%; filter: blur(2px); -webkit-filter: drop-shadow(5px 5px 10px #0080ff); filter: drop-shadow(5px 5px 10px #0080ff);}
+img.cloud-small-l:hover {width: 24%; height: 24%; filter: blur(2px); -webkit-filter: drop-shadow(5px 5px 10px rgb(191, 0, 255)); filter: drop-shadow(5px 5px 10px	rgb(191, 0, 255));}
+img.cloud-minimum-r:hover {width: 27%; height: 27%; filter: blur(2px); -webkit-filter: drop-shadow(5px 5px 10px rgb(191, 255, 0)); filter: drop-shadow(5px 5px 10px rgb(191, 255, 0));}
+img.cloud-minimum-l:hover {width: 17%; height: 17%; filter: blur(2px); -webkit-filter: drop-shadow(5px 5px 10px rgb(255, 191, 0)); filter: drop-shadow(5px 5px 10px rgb(255, 191, 0));}
+img.cloud-small-r:hover {width: 22%; height: 22%; filter: blur(2px); -webkit-filter: drop-shadow(5px 5px 10px rgb(255, 255, 0)); filter: drop-shadow(5px 5px 10px	rgb(255, 255, 0));}
+img.cloud-minimum-l1:hover {width: 17%; height: 17%; filter: blur(2px); -webkit-filter: drop-shadow(5px 5px 10px blue); filter: drop-shadow(5px 5px 10px blue);}
+img.cloud-minimum-l2:hover {width: 12%; height: 12%; filter: blur(2px); -webkit-filter: drop-shadow(5px 5px 10px rgb(255, 128, 0)); filter: drop-shadow(5px 5px 10px rgb(255, 128, 0));}
+img.cloud-minimum-l3:hover {width: 10%; height: 10%; filter: blur(2px); -webkit-filter: drop-shadow(5px 5px 10px rgb(255, 0, 0)); filter: drop-shadow(5px 5px 10px rgb(255, 0, 0));}
+
+img.cloud-transition {
+  opacity: 90%;
+  transition-property: width, height;
+  transition-duration: 0.5s;
+}
+
+/*------------------ BUTTON ---------------*/
+
+.contactButton {
+	box-shadow:inset 0px 39px 0px -24px lightpink;
+	background-color: #ff9999;
+	border-radius:4px;
+	border:1px solid #ff9999;
+	display:inline-block;
+	cursor:pointer;
+	color: darkcyan;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px lightblue  ;
+}
+
+.contactButton:hover {
+	background-color:#eb675e;
+}
+
+.contactButton:active {
+	position:relative;
+	top:1px;
+}
